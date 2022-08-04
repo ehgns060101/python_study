@@ -37,3 +37,40 @@
   - 결과:' hello'
   - str.lstrip() : 왼쪽 공백 제거
   - 결과:'hello '
+
+## 2022 - 08 -02
+
+- 리스트
+- 삭제
+  - ex) movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']
+  - del movie_rank[2] : '스플릿' 제거
+  - del movie_rank[2] : '배트맨' 제거
+  - print(movie_rank) : movie_rank 
+- 두개의 리스트를 포함하는 하나의 리스트
+  - lang1 = ["C", "C++", "JAVA"] : 첫번째 리스트
+  - lang2 = ["Python", "Go", "C#"] : 두번째 리스트
+  - langs = lang1 + lang2 : 두개의 리스트를 포함하는 하나의 리스트 생성
+  - print(langs)
+- 리스트 합계산
+   ```python
+    nums = [1, 2, 3, 4, 5]
+    print(sum(nums))
+    ```
+- 내장함수
+   - 평균
+   ```python
+    nums = [1, 2, 3, 4, 5]
+    average = sum(nums) / len(nums)
+    print(average)
+   ```
+- 튜플
+
+- 튜플 언팩킹
+  - temp = ('apple', 'banana', 'cake')
+  - a, b, c = temp
+  - print(a, b, c)
+- range 함수
+  
+- 1~99까지 짝수만 저장된 튜플생성
+  - data = tuple(range(2, 100, 2))
+  print( data )
